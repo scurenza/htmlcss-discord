@@ -8,10 +8,17 @@
 /* COMMON */
 html{
     font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    
 }
 .container{
     width: 80%;
     margin: 0 auto;
+}
+
+.button{
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
 }
 
 /* hr{
@@ -54,12 +61,10 @@ header ul li{
     border-radius: 30px;
 } */
 
-input{
+.btn-header{
     background-color: white;
-    padding: 12px;
-    border-radius: 30px;
-    border: none;
 }
+
 
 /* MAIN */
 .banner-container{
@@ -76,11 +81,38 @@ input{
 .banner{
     width: 70%;
     margin: 0px auto;
+    text-align: center;
 
     /* DEBUG */
     min-height: 400px;
     
     
+}
+
+.banner h1{
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.banner p{
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+.btn-banner-dl{
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.btn-banner-link{
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    margin-left: 0.5em;
 }
 
 .section{
