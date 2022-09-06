@@ -212,6 +212,7 @@ footer span{
     min-height: 500px;
     padding-top: 10px;
     padding-bottom: 30px;
+    border-bottom: 2px solid white;
 }
 
 .col-one{
@@ -261,12 +262,11 @@ footer span{
     min-height: 80px;
     display: flex;
     justify-content: space-between;
-    background-color: #7fffd4;
-    margin-top: 20px;
-    align-items: center;
+    margin-top: 1em;
+    align-items: top;
 }
 
-.footer-logo, .footer-button{
-    background-color: #ffb6c1;
-    padding: 8px;
+.btn-footer{
+    background-color: #7289da;
+    color: white;
 }
