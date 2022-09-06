@@ -150,8 +150,17 @@ header ul li{
 }
 
 .four{
-    height: 400px;
-    background-color: #228b22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+}
+
+.four h3{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5em;
 }
 
 /* FOOTER */
