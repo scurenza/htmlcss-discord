@@ -21,6 +21,16 @@ html{
     border: none;
 }
 
+span{
+    display: inline-block;
+    vertical-align:top;
+}
+
+i{
+    color: white;
+    font-size: 1.5em;
+    padding-right: 0.7em;
+}
 /* hr{
     background-color: #d3d3d3;
 } */
@@ -193,6 +203,10 @@ footer{
     min-height: 400px;
 }
 
+footer span{
+    color: white;
+}
+
 .footer-section{
     display: flex;
     min-height: 500px;
@@ -201,15 +215,46 @@ footer{
 }
 
 .col-one{
-    width: 40%;
-    background-color: #f08080;
+    width: 30%;
+    padding: 1.5em 1.5em;
+}
+
+.col-one h4{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #7289da;
+}
+
+.col-one img{
+    height: 1.2em;
+}
+
+.flag{
+    line-height: 1.2em;
+    height: 1.2em;
+    margin-bottom: 1.5em;
 }
 
 .col{
     /* width: calc(66% / 4); */
     flex-grow: 1;
-    background-color: #20b2aa;
-    border: 2px dashed white;
+    padding: 1em 1em;
+    margin-right: 3em;
+}
+
+.col h5{
+    font-size: 1em;
+    margin-top: 1.3em;
+    margin-bottom: 1.4em;
+    color: #7289da;
+}
+
+.col ul{
+    list-style-type: none;
+    color: white;
+}
+.col li{
+    margin-bottom: 1.5em;
 }
 
 .footer-bottom{
