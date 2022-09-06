@@ -117,25 +117,36 @@ header ul li{
 
 .section{
     margin: 30px auto;
-    height: 300px;
+    min-height: 300px;
     display: flex;
 }
 
 .img{
-    width: 60%;
-    background-color: #1e90ff;
-
+    width: 50%;
 }
 
 .img-description{
-    width: 40%;
-    background-color: #ffc0cb;
+    width: 50%;
+    padding: 1.5em 5em;
+}
+
+.img-description h2{
+    font-size: 3em;
+    line-height: 1.1em;
+    margin-bottom: 0.8em;
+    padding-right: 4em;
+}
+
+.img-description p{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    padding-right: 4.2em;
 }
 
 .section-container{
     width: 100%;
     padding: 1em 0;
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .four{
